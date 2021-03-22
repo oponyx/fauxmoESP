@@ -83,7 +83,7 @@ typedef struct {
     unsigned int ct;
     char colormode[3];  // This might have to change to an enum 
     unsigned char red, green, blue;
-    char uniqueid[13];
+    char uniqueid[27];
 } fauxmoesp_device_t;
 
 class fauxmoESP {
